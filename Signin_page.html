@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin_page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="signup_2.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="part1">
+            
+            <pre ID="txt1">NEW ARRIVALS</pre>
+            <section class="circle"></section>
+                                   
+             <pre id="txt2">JUST <br>F O R</pre>
+             <p id="txt3">you</p>
+             <img id="girl" src="girl.png">            
+           
+        </div>
+        
+        <div class="part2">
+            <div class="icon">
+                <P><img src="icon.svg" height="7px" id="icon1"> </P>
+                <p id="san">SAN</p>
+                <p id="life"> &ensp;LIFESTYLE.</p>
+            </div>
+            <div class="tab">
+                <button type="button" id="s1" data-tab-target="#SignIn">signin</button>
+                <button type="button" id="s2" data-tab-target="#SignUp">signup</button>
+            </div>
+            
+            <!-- Sign-in page -->
+            <div class="signin_page" id="SignIn" data-tab-content="tabcontent active">
+               
+                <div class="txtbox">
+                <div class="txt_uname">
+                
+                <img src="user.svg" id="user_icon">
+                    <input id="username" type="text" placeholder="  Enter your username"  required>
+                    
+                </div>
+                
+                <div class="txt_pw">
+                    
+                    <img src="unlock.svg" id="unlock_icon">
+                    <input id="password" type="text" placeholder="     Enter your password" required>
+                 </div>
+                
+           
+                <div class="checkbox">
+                <div class="remember">
+                    <form action="action" method="get">
+                    <input type="checkbox" id="remember_me" value="user">
+                    <label for="Remember_me"> Remember Me</label><br>
+                </form> 
+                </div>
+                <div class="forgot_password">
+                    <a href="url">Forgot Password?</a>
+                </div>  
+                
+                <div class="button3">
+                    <button type="button" id="signin_btn3">SIGN IN</button>
+
+                </div>
+                <div class="url_link">
+                    <a id="url11" href="url">New on our product? </a>
+                    <a id="url21" href="url">Create an account </a>
+                </div>
+                </div>
+                <div class="net">
+                    <p id="or">or</p>
+                    <p id="social_network">With your social network</p>
+                </div>
+                <div class="google_fb">
+                    <img src="google.png" id="google">
+                    <img src="fb.png" id="fb">
+                </div>
+                
+         
+            </div>
+         <!-- signup_page -->
+            <div class="signup_page " id="SignUp" data-tab-content="tabcontent">
+                <div class="txtbox">
+                    <div class="txt_uname">
+            
+                         <img src="user.svg" id="user_icon">
+            
+                        <input id="username" type="text" placeholder="Enter your username" required>
+                    </div>
+                    <div class="txt_mail"> 
+                        <img src="mail.svg" id="mail_icon" >
+                        <input id="mail" type="text" placeholder="Enter your mail" required>
+                    </div> 
+                     <div class="txt_pw">
+                        <img src="unlock.svg" id="unlock_icon">
+           
+                        <input id="password" type="text" placeholder="Enter your password" required>
+                    </div>
+                    <div class="txt_cpw"> 
+                        <img src="unlock.svg" id="cunlock_icon">
+                        <input id="cpassword" type="text" placeholder="Confirm your password" required>
+                    </div>
+                </div>
+               
+                    
+                    
+                    <div class="button3">
+                            <button type="button" id="btn3">SIGN UP</button>
+
+                    </div>
+                    <div class="url">
+                            <a id="url1" href="url">Already have an account? </a>
+                            <a id="url2" href="url">Sign in instead </a>
+                    </div>
+               
+                <div class="net">
+                            <p id="or">or</p>
+                            <p id="social_network">With your social network</p>
+                </div>
+                <div class="google_fb">
+                            <img src="google.png" id="google">
+                            <img src="fb.png" id="fb">
+                </div>      
+      
+            </div>  
+        </div> 
+    
+</div> 
+
+<script src="signin.js"></script>
+</body>
+</html>
